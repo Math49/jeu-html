@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../styleHeader&Footer.css">
+    <link rel="stylesheet" href="style/exo2.css">
+    <script src="script/exo2.js" defer></script>
+    <title>Jeu MDS B1Gr1</title>
+</head>
+<body>
+    <header>
+        <div id="header">
+            <img class="logo" src="../images/logo-mds.png">
+            <h1 class="titre">Jeux MDS B1Gr1 - HTML & CSS</h1>
+            <a class="menu" href="../index.html">Home</a>
+        </div>
+        <div class="niveau">
+            <h1>Niveau 2</h1>
+        </div>
+    </header>
+
+    <main>
+        <div class="contenu">
+            <div class="game">
+                <div class="explication white">
+                    <h1 class="question">Transformez le texte avec du code HTML pour qu’il soit cliquable.</h1>
+                    <p><strong>&lt;a href=" "&gt;</strong> → cette balise permet de créer un lien hypertexte vers des pages web, des fichiers, des adresses e-mail, des emplacements se trouvant dans la même page, ou tout ce qu'une URL peut adresser.</p>
+                    <p><strong>&lt;img src=" "&gt;</strong> → Cette balise permet tout simplement d'insérer une image choisie à l’avance. Le "src" permet d'insérer le lien de l'image afin que l’ordinateur puisse trouver l’image.</p>
+                    <p><strong>&lt;audio&gt;</strong> Bon celle-ci elle est plus facile ! Elle te permet de mettre un son ou une musique sur ton site. </p>
+                </div>
+                <div class="interaction white">
+                    <div class="button">
+                        <button id="a">&lt;a&gt;</button>
+                        <button id="img">&lt;img&gt;</button>
+                        <button id="audio">&lt;audio&gt;</button>
+                    </div>
+                </div>
+            </div>
+            <div class="rendu">
+                <h3 class="final">Rendu Final : </h3>
+                <div class="final white">
+                    <a href="https://developer.mozilla.org/fr/docs/Web/HTML/">La documentation Mozilla permet de mieux comprendre</a>
+                </div>
+                <h3 class="direct">Rendu en direct :</h3>
+                <div class="direct white">
+                    <p id='edit' >La documentation Mozilla permet de mieux comprendre</p>
+                </div>
+            </div>
+        </div>
+        <div id="valider">
+            <p id="send"></p>
+            <input id="submit" type="submit" value="Validez" name="submit">
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer">
+            <h2 class="texte">Jeu développé par</h2>
+            <p>Mathis Mercier - B1 Gr1 MDS Angers</p>
+            <p>Samuel Landais - B1 Gr1 MDS Angers</p>
+            <p>Nathanaël Forgeau - B1 Gr1 MDS Angers</p>
+            <p>Adrien Conrard - B1 Gr1 MDS Angers</p>
+        </div>
+    </footer>
+</body>
+</html>

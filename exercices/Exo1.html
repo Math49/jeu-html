@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../styleHeader&Footer.css">
+    <link rel="stylesheet" href="style/exo1.css">
+    <script src="script/exo1.js" defer></script>
+    <title>Jeu MDS B1Gr1</title>
+</head>
+<body>
+    <header>
+        <div id="header">
+            <img class="logo" src="../images/logo-mds.png">
+            <h1 class="titre">Jeux MDS B1Gr1 - HTML & CSS</h1>
+            <a class="menu" href="../index.html">Home</a>
+        </div>
+        <div class="niveau">
+            <h1>Niveau 1</h1>
+        </div>
+    </header>
+
+    <main>
+        <div class="contenu">
+            <div class="game">
+                <div class="explication white">
+                    <h1 class="question">Transformez le texte avec du code HTML pour que le texte soit en gras.</h1>
+                    <p><strong>&lt;em&gt;</strong> → Cette balise te permet d’écrire ton texte en italique.</p>
+                    <p><strong>&lt;strong&gt;</strong> → Cet élément te permet tout simplement de mettre ton texte en gras.</p>
+                    <p><strong>&lt;h1&gt;</strong> → Cet élément permet de modifier l’importance du texte qu’elle contient. Ici le texte va paraître en titre car on est en taille la plus élevée. Pour l’avoir en plus petit, il suffit de modifier le chiffre. La taille minimum est <strong>&lt;h6&gt;</strong>. </p>
+                </div>
+                <div class="interaction white">
+                    <div class="button">
+                        <button id="em">&lt;em&gt;</button>
+                        <button id="strong">&lt;strong&gt;</button>
+                        <button id="h1">&lt;h1&gt;</button>
+                        <button id="h3">&lt;h3&gt;</button>
+                    </div>
+                </div>
+            </div>
+            <div class="rendu">
+                <h3 class="final">Rendu Final : </h3>
+                <div class="final white">
+                    <p><strong>Le code HTML, c’est trop bien !</strong></p>
+                </div>
+                <h3 class="direct">Rendu en direct :</h3>
+                <div class="direct white">
+                    <p id="edit">Le code HTML, c’est trop bien !</p>
+                </div>
+            </div>
+        </div>
+        <div id="valider">
+            <p id="send"></p>
+            <input id="submit" type="submit" value="Validez" name="submit">
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer">
+            <h2 class="texte">Jeu développé par</h2>
+            <p>Mathis Mercier - B1 Gr1 MDS Angers</p>
+            <p>Samuel Landais - B1 Gr1 MDS Angers</p>
+            <p>Nathanaël Forgeau - B1 Gr1 MDS Angers</p>
+            <p>Adrien Conrard - B1 Gr1 MDS Angers</p>
+        </div>
+    </footer>
+</body>
+</html>

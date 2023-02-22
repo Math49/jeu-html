@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../styleHeader&Footer.css">
+    <link rel="stylesheet" href="style/exo3.css">
+    <script src="script/exo3.js" defer></script>
+    <title>Jeu MDS B1Gr1</title>
+</head>
+<body>
+    <header>
+        <div id="header">
+            <img class="logo" src="../images/logo-mds.png">
+            <h1 class="titre">Jeux MDS B1Gr1 - HTML & CSS</h1>
+            <a class="menu" href="../index.html">Home</a>
+        </div>
+        <div class="niveau">
+            <h1>Niveau 3</h1>
+        </div>
+    </header>
+
+    <main>
+        <div class="contenu">
+            <div class="game">
+                <div class="explication white">
+                    <h1 class="question">Faites en sorte que la première phrase soit un grand titre, puis que le reste du contenu soit en liste non-organisée.</h1>
+                    <p><strong>&lt;ul&gt; & &lt;li&gt;</strong>  → L’élément &lt;ul&gt; permet de déclarer une liste ( ici non ordonnée ). Après cette balise, nous pouvons rajouter des éléments dans cette liste avec la balise &lt;li&gt;.</p>
+                    <p><strong>&lt;h1&gt;</strong> → Cet élément permet de modifier l’importance du texte qu’elle contient. Ici le texte va paraître en titre car on est en taille la plus élevée. Pour l’avoir en plus petit, il suffit de modifier le chiffre. La taille minimum est <strong>&lt;h6&gt;</strong>. </p>
+                </div>
+                <div class="interaction white">
+                    <div class="button">
+                        <button id="h1">&lt;h1&gt;</button>
+                        <button id="ul">&lt;ul&gt;</button>
+                        <button id="/ul">&lt;/ul&gt;</button>
+                        <button id="li1">&lt;li&gt;</button>
+                        <button id="li2">&lt;li&gt;</button>
+                        <button id="li3">&lt;li&gt;</button>
+
+                    </div>
+                </div>
+                <div class="view white">
+                    <span id="view1"></span>
+                    <span id="view2"></span>
+                    <span id="view3"></span>
+                    <span id="view4"></span>
+                    <span id="view5"></span>
+                    <span id="view6"></span>
+                </div>
+            </div>
+            <div class="rendu">
+                <h3 class="final">Rendu Final : </h3>
+                <div class="final white">
+                    <h1>3 raisons pour apprendre le HTML</h1>
+                    <ul>
+                        <li> Le HTML, c’est partout !</li>
+                        <li> C’est un langage rapide à apprendre</li>
+                        <li> Il permet de créer le contenu d’applications web</li>
+                    <ul>
+
+
+                </div>
+                <h3 class="direct">Rendu en direct :</h3>
+                <div class="direct white">
+                    <strong id="edit1">3 raisons pour apprendre le HTML</strong>
+                    <span id="edit2"></span>
+                    <p id="edit3">Le HTML, c’est partout !</p>
+                    <p id="edit4">C’est un langage rapide à apprendre</p>
+                    <p id="edit5">Il permet de créer le contenu d’applications web</p>
+                    <span id="edit6"></span>
+                </div>
+            </div>
+        </div>
+        <div id="valider">
+            <p id="send"></p>
+            <input id="submit" type="submit" value="Validez" name="submit">
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer">
+            <h2 class="texte">Jeu développé par</h2>
+            <p>Mathis Mercier - B1 Gr1 MDS Angers</p>
+            <p>Samuel Landais - B1 Gr1 MDS Angers</p>
+            <p>Nathanaël Forgeau - B1 Gr1 MDS Angers</p>
+            <p>Adrien Conrard - B1 Gr1 MDS Angers</p>
+        </div>
+    </footer>
+</body>
+</html>
